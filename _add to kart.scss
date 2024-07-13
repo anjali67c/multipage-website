@@ -1,0 +1,100 @@
+.head{
+
+    background: #6a6a6a;
+    display: flex;
+    img{
+        padding-left: 90px;
+    }
+
+    h1{
+        font-family: bradley hand ITC;
+        font-style: normal;
+        padding-left: 250px;
+        padding-top: 35px;
+    }
+}
+
+.new{
+    padding-left: 60px;
+}
+
+.cart{
+    display: flex;
+    .cart-1{
+        img{
+            padding-left: 50px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 2px 2px black;
+        }
+    }
+
+    .cart-2{
+        h1{
+            font-family: Bell MT;
+            font-style: normal;
+            font-size: 40px;
+        }
+
+        h3{
+            padding: 30px;
+            font-family: comic sans MS;
+
+        }
+
+        button{
+            height: 50px;
+            width: 200px;
+            margin-left: 30px;
+            font-size: 20px;
+            font-size: 20px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 2px 2px grey;
+        }
+
+        h4{
+            margin-left: 30px;
+            font-family: candara;
+            text-decoration: underline;
+        }
+    }
+}
+
+h1{
+    padding-left: 30px;
+    font-family: candara;
+    font-style: italic;
+    font-size: 40px;
+}
+
+.end{
+    margin-left: 660px;
+    margin-top: -230px;
+    padding-left: 20px;
+
+    .Button1{
+        padding: 20px;
+        width: 350px;
+        font-size: 15px;
+        text-align: left;
+        color: #6a6a6a;
+        border-radius: 20px;
+        box-shadow: 3px 3px 3px 3px gray;
+    }
+
+    p{
+        font-family: candara;
+        font-size: 20px;
+        padding-right: 45px;
+    }
+
+    .button2{
+        padding: 20px;
+        width: 300px;
+        font-size: 15px;
+        text-align: center;
+        color: white;
+        border-radius: 20px;
+        box-shadow: 3px 3px 3px 3px gray;
+        background-color: #6a6a6a;
+    }
+}

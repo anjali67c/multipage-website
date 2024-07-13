@@ -1,0 +1,141 @@
+
+.navbar6{
+    background: gainsboro;
+    height: 25vh;
+
+    h1{
+        padding-left: 500px;
+        font-family: candara;
+        font-size: 45px;
+        font-style: normal;
+        margin-top: -120px;
+        align-items: center;
+    }
+
+    img{
+        padding-left: 150px;
+        margin-top: -30px;
+    }
+}
+
+.final-order{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    .order{
+        background-color: lavenderblush;
+        padding: 50px;
+        padding-bottom: 100px;
+        padding-right: 480px;
+    }
+
+    .contact-form{
+        padding-left: 50px;
+        padding-top: 20px;
+        padding-right: 20px;
+
+        .form1{
+            a{
+                color: black;
+                text-decoration: none;
+                padding-left: 400px;
+            }
+
+            input{
+                padding: 15px 150px 15px 150px;
+                text-align: center;
+                font-size: 15px;
+                border-radius: 10px;
+                border: 2px solid black;
+            }
+
+            label{
+                font-size: 17px;
+                font-family: candara;
+            }
+        }
+
+        .form2{
+
+            label{
+                font-size: 20px;
+                font-family: candara;
+            }
+
+            input{
+                height: 30px;
+                width: 485px;
+                border: 2px solid gray;
+                border-radius: 10px;
+                padding-left: 10px;
+            }
+        }
+
+        .form3{
+            input{
+                height: 30px;
+                width: 232px;
+                border-radius: 10px;
+                border: 2px solid gray;
+                padding-left: 10px;
+            }
+        }
+
+        .form4{
+            input{
+                height: 30px;
+                width: 485px;
+                border-radius: 10px;
+                border: 2px solid gray;
+                padding-left: 10px;
+            }
+        }
+
+        .form5{
+            input{
+                height: 30px;
+                width: 148px;
+                border-radius: 10px;
+                border: 2px solid gray;
+                padding-left: 10px;
+            }
+        }
+
+        .form6{
+            input{
+                height: 30px;
+                width: 485px;
+                border: 2px solid gray;
+                border-radius: 10px;
+                padding-left: 10px;
+            }
+        }
+
+        .pay-mode{
+            height: 40px;
+            width: 495px;
+            border: 2px solid gray;
+            border-radius: 10px;
+        }
+
+        .Address{
+            height: 30px;
+            width: 475px;
+            padding-left: 10px;
+            border-radius: 10px;
+            border: 2px solid gray;
+        }
+
+        .pay-button{
+            height: 50px;
+            width: 485px;
+            border: 2px solid black;
+            background: #6a6a6a;
+            color: white;
+            text-transform: uppercase;
+            font-size: 18px;
+        }
+    }
+}
+

@@ -1,0 +1,86 @@
+.image{
+    display: flex;
+    background-image: url(lgn2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    .text{
+        text-align: center;
+        font-family: arial;
+        padding: 50px;
+        background-color: transparent;
+        width: 100%;
+        align-items: center;
+        font-style: oblique;
+        padding-right: 40px;
+
+        h1{
+            font-size: 50px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: normal;
+            font-style: normal;
+            color: white;
+        }
+
+        h2{
+            font-family: candara;
+            font-weight: bold;
+            padding-top: 10px;
+            color: white;
+        }
+
+        button{
+            height: 50px;
+            width: 390px;
+            font-style: 20px;
+            font-size: 20px;
+            border-radius: 20px;
+            background: gainsboro;
+        }
+
+        h4{
+            font-style: 20px;
+            font-weight: normal;
+            font-family: candara;
+            color: black;
+        }
+
+        .border{
+            border: solid 5px;
+            height: 250px;
+            width: 400px;
+            padding: 50px;
+            text-align: center;
+            align-self: center;
+            align-items: center;
+            font-style: italic;
+            margin-left: 90px;
+        }
+
+        form{
+            input{
+                height: 50px;
+                border-radius: 20px;
+                box-shadow: 1px 1px 1px 1px gray;
+                border: 1px solid black;
+                font-size: 20px;
+                text-align: center;
+                width: 380px;
+                background: gainsboro;
+                color: black;
+                
+                ::placeholder{
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width:641px) {
+    .image{
+        padding: 0 20px;
+        flex-wrap: wrap-reverse;
+    }
+}
